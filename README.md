@@ -46,5 +46,6 @@ For pronunciation, we utilized a [Thai speech-to-text model](https://huggingface
 python evaluate_tts.py
 ```
 
-## Acknowledgement
-Coming soon
+## Acknowledgements
+- We thank Coqui for their Speaker Embedding Model, available at: https://github.com/coqui-ai/TTS.git.
+- We are grateful to the Biomedical and Data Lab at Mahidol University for their contribution to the proposed Thai speech-to-text model.
