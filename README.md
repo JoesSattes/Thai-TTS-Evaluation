@@ -1,5 +1,5 @@
 # Thai-TTS-Evaluation
-This repository hosts a Thai Text-to-Speech (TTS) evaluation script, focusing on assessing speaker tone and pronunciation performance.
+This repository hosts a Thai Text-to-Speech (TTS) evaluation script, focusing on assessing speaker tone and pronunciation performance based on [End-to-End Thai Text-to-Speech with Linguistic Unit](https://dl.acm.org/doi/abs/10.1145/3652583.3658029).
 
 ![boundary_problem.png](boundary_problem.png)
 
@@ -49,3 +49,14 @@ python evaluate_tts.py
 ## Acknowledgements
 - We thank Coqui for their Speaker Embedding Model, available at: https://github.com/coqui-ai/TTS.git.
 - We are grateful to the Biomedical and Data Lab at Mahidol University for their contribution to the proposed Thai speech-to-text model.
+
+## Citations
+```
+@inproceedings{wisetpaitoon2024end,
+  title={End-to-End Thai Text-to-Speech with Linguistic Unit},
+  author={Wisetpaitoon, Kontawat and Singkul, Sattaya and Sakdejayont, Theerat and Chalothorn, Tawunrat},
+  booktitle={Proceedings of the 2024 International Conference on Multimedia Retrieval},
+  pages={951--959},
+  year={2024}
+}
+```
